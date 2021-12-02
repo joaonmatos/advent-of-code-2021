@@ -6,7 +6,7 @@ import (
 	"strconv"
 )
 
-const day1Input string = "inputs/011.txt"
+const day1Input string = "inputs/01.txt"
 
 func Day1Part1() int {
 	file, _ := os.Open(day1Input)
