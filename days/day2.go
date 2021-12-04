@@ -25,13 +25,10 @@ func Day2Part1() int {
 		switch direction {
 		case "forward":
 			position += amount
-			break
 		case "up":
 			depth -= amount
-			break
 		case "down":
 			depth += amount
-			break
 		}
 	}
 
@@ -56,13 +53,10 @@ func Day2Part2() int {
 		case "forward":
 			position += amount
 			depth += aim * amount
-			break
 		case "up":
 			aim -= amount
-			break
 		case "down":
 			aim += amount
-			break
 		}
 	}
 
